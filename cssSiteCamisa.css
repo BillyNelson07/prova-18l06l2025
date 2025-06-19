@@ -1,29 +1,88 @@
-#cabecalhoPrincipal{
-    text-align: center;
-    background-color: #dde3ca;
-    padding: 10px;
-    font-size: xx-large;
-    font-family: fantasy;
-    text-shadow: #00000054 2px 2px 4px;
-}
 body{
     background-color: #b2d9f7;
+}
+
+#cabecalhoPrincipal{
+    text-align: center;
+    background-color: #487aa1;
+    padding: 20px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif   ; 
+    font-weight: bolder;
+    color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #displayPrincipal{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: auto;
 }
 
-#imagemProduto{
-    background-color: aqua;
-    margin: 50px 50px 50px 70px;
-    background-image: ;
-    
+#imagemCamisa{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: auto
 }
 
 #descricaoProduto{
-   background-color: #fa0101;
-   margin: 50px 70px 50px 50px;
+   background-color: #7c8071;
+   margin: auto;
+   width: 400px;
+   height: 500px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
+   text-align: center;
+}
+
+#nomeDoProduto{
+    padding: 5px 5px 5px 5px;
+    background-color: #3d3c3b;
+    border-radius: 5px;
+    margin: 10px 30px 10px 30px;
+    font-family: open-sans;
+    color: #dde3ca;
+}
+
+#descricaoDaCamisa{
+    background-color: #3d3c3b;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    margin: 0px 50px 0px 50px;
+    font-family: open-sans;
+    color: #dde3ca;
+    font-size: large;
+    text-align: left;
+}
+
+#preco{
+    background-color: #3d3c3b;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    margin: 0px 40px 0px 40px;
+    font-family: open-sans;
+    color: #dde3ca;
+    font-size: xx-large;
+}
+
+#botaoDeComprar{
+    background-color: #3d3c3b;
+    padding: 15px 35px 15px 35px;
+    border-radius: 5px;
+    margin: 0px 40px 0px 40px;
+    font-family: open-sans;
+    color: #dde3ca;
+    font-size: xx-large;
+}
+
+#rodape{
+    text-align: center;
+    font-size: large;
+    background-color: #487aa1;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
