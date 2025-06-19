@@ -1,0 +1,29 @@
+#cabecalhoPrincipal{
+    text-align: center;
+    background-color: #dde3ca;
+    padding: 10px;
+    font-size: xx-large;
+    font-family: fantasy;
+    text-shadow: #00000054 2px 2px 4px;
+}
+body{
+    background-color: #b2d9f7;
+}
+
+#displayPrincipal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+
+#imagemProduto{
+    background-color: aqua;
+    margin: 50px 50px 50px 70px;
+    background-image: ;
+    
+}
+
+#descricaoProduto{
+   background-color: #fa0101;
+   margin: 50px 70px 50px 50px;
+}
