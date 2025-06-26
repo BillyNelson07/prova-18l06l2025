@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #b2d9f7;
+}
+
+#cabecalhoPrincipal{
+    background-color: #487aa1;
+    padding: 20px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bolder;
+    color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: solid 1px #3d3c3b;
+    text-align: center;
+}
+
+#areaDosProdutos{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    place-items: center;
+    row-gap: 35px;
+}
+
+.produtoEmSi{
+    background-color: #7c8071;
+    place-items: center;
+    display: grid;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: solid 1px #7c8071;
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+
+.imagemProduto{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: auto
+}
+
+.nomeProduto{
+    background-color: #3d3c3b;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.precoProduto{
+    background-color: #3d3c3b;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#rodape{
+    text-align: center;
+    font-size: large;
+    background-color: #487aa1;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: solid 1px #3d3c3b;
+}
+
+#linkGitHub:visited{
+    color: black;
+}
