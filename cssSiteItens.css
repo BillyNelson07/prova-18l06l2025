@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
@@ -8,6 +8,7 @@ body{
 }
 
 #cabecalhoPrincipal{
+    text-align: center;
     background-color: #487aa1;
     padding: 20px;
     font-size: xx-large;
@@ -16,31 +17,16 @@ body{
     color: whitesmoke;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border: solid 1px #3d3c3b;
-    text-align: center;
 }
 
-#areaDosProdutos{
-    margin: 50px;
+#displayPrincipal{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-evenly;
-    place-items: center;
-    row-gap: 35px;
+    justify-content: space-between;
+    margin: auto;
 }
 
-.produtoEmSi{
-    background-color: #7c8071;
-    place-items: center;
-    display: grid;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    border: solid 1px #7c8071;
-    justify-content: space-evenly;
-    row-gap: 10px;
-}
-
-.imagemProduto{
+#imagemCamisa{
     width: 400px;
     height: 500px;
     border-radius: 10px;
@@ -48,53 +34,60 @@ body{
     margin: auto
 }
 
-.nomeProduto{
+#descricaoProduto{
+   background-color: #7c8071;
+   margin: auto;
+   width: 400px;
+   height: 500px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+#nomeDoProduto{
+    padding: 5px 5px 5px 5px;
     background-color: #3d3c3b;
-    padding: 10px;
     border-radius: 10px;
+    margin: 0px 40px 0px 40px;
+    font-family: open-sans;
     color: #dde3ca;
 }
 
-.precoProduto{
+#descricaoDaCamisa{
     background-color: #3d3c3b;
-    padding: 10px;
+    padding: 5px 15px 5px 15px;
     border-radius: 10px;
+    margin: 0px 40px 0px 40px;
+    font-family: open-sans;
     color: #dde3ca;
-    font-size: x-large;
-    font-weight: bolder;
+    font-size: large;
+    text-align: left;
 }
 
-.botaoDeCompra{
+#preco{
     background-color: #3d3c3b;
-    color: #dde3ca;
-    padding: 10px;
+    padding: 5px 15px 5px 15px;
     border-radius: 10px;
-    border: none;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 40px 0px 40px;
+    font-family: open-sans;
+    color: #dde3ca;
+    font-size: xx-large;
+}
+
+#botaoDeComprar{
+    background-color: #3d3c3b;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    font-family: open-sans;
     font-weight: bolder;
-    font-size: x-large;
-    cursor: pointer;
+    color: #dde3ca;
+    font-size: xx-large;
+    margin: 0px 40px 0px 40px;
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #rodape{
     text-align: center;
@@ -107,5 +100,6 @@ body{
 }
 
 #linkGitHub:visited{
+    text-decoration: none;
     color: black;
 }
